@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="fieldparams">
+		<fieldset name="fieldparams">
+			<field
+				name="thumbnail_width"
+				type="text"
+				label="PLG_FIELDS_GALLERY_PARAMS_THUMBNAIL_WIDTH_LABEL"
+				description="PLG_FIELDS_GALLERY_PARAMS_THUMBNAIL_WIDTH_DESC"
+				size="5"
+				default="64"
+			/>
+
+			<field
+				name="thumbs_row"
+				type="list"
+				label="PLG_FIELDS_GALLERY_PARAMS_THUMBS_ROW_LABEL"
+				description="PLG_FIELDS_GALLERY_PARAMS_THUMBS_ROW_DESC"
+				default="6"
+				>
+				<option value="1">J1</option>
+				<option value="2">J2</option>
+				<option value="3">J3</option>
+				<option value="4">J4</option>
+				<option value="6">J6</option>
+				<option value="12">J12</option>
+			</field>
+
+			<field
+				name="recursive"
+				type="list"
+				label="PLG_FIELDS_GALLERY_PARAMS_RECURSIVE_LABEL"
+				description="PLG_FIELDS_GALLERY_PARAMS_RECURSIVE_DESC"
+			>
+				<option value="">PLG_FIELDS_GALLERY_PARAMS_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+
+			<field
+				name="multiple"
+				type="list"
+				label="PLG_FIELDS_GALLERY_PARAMS_MULTIPLE_LABEL"
+				description="PLG_FIELDS_GALLERY_PARAMS_MULTIPLE_DESC"
+			>
+				<option value="">PLG_FIELDS_GALLERY_PARAMS_USE_GLOBAL</option>
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+			</field>
+
+			<field
+				name="directory"
+				type="text"
+				label="PLG_FIELDS_GALLERY_PARAMS_DIRECTORY_LABEL"
+				description="PLG_FIELDS_GALLERY_PARAMS_DIRECTORY_DESC"
+			/>
+		</fieldset>
+	</fields>
+</form>
