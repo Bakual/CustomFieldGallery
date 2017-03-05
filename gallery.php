@@ -40,13 +40,7 @@ class PlgFieldsGallery extends FieldsPlugin
 			return $fieldNode;
 		}
 
-		$directory = $fieldNode->getAttribute('directory');
-
-		// Can be empty when the plugin doesn't get saved.
-		if (!$directory)
-		{
-			$directory = 'images';
-		}
+		$directory = 'images/' . $fieldNode->getAttribute('directory');
 
 		$fieldNode->setAttribute('directory', $directory);
 
